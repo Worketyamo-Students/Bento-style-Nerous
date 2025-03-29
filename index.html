@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bento style nerous</title>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montaga&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <style type="text/tailwindcss">
-        @theme {
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bento style nerous</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montaga&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <style type="text/tailwindcss">
+    @theme {
       --color-text: #F35034;
       --color-border: #E63E21;
       --color-s-text: #C0C0C0;
@@ -23,82 +23,88 @@
       --color-text: #F35034;
       --color-text: #F35034;
       --font-family: "Inter", sans-serif;
-
     }
   </style>
+</head>
 
-<body class="flex flex-col gap-4 bg-[#1B1B1B] font-family md:grid md:grid-cols-2">
-    <header class="flex w-full item-center px-4 md:px-8 md:col-span-2 pt-12">
-        <div class="flex juitem-center bg-body  md:flex w-9 h-8 md:w-12 mdh-12 juitem-center items-center rounded-full">
-            <img src="asset/image/Vector (8).svg" alt="" class="w-6 h-6 pl-2 md:w-8 md:h-8 md:pl-3">
+<body class="flex gap-6 flex-col  bg-[#1B1B1B] md:bg-red-400  font-family md:grid md:grid-cols-1">
+  <header class="flex w-full item-center px-4 md:px-8 md:col-span-2 pt-12">
+    <div class="flex juitem-center bg-body  md:flex w-9 h-8 md:w-12 mdh-12 juitem-center items-center rounded-full">
+      <img src="asset/image/Vector (8).svg" alt="" class="w-6 h-6 pl-2 md:w-8 md:h-8 md:pl-3">
+    </div>
+    <nav class="flex bg-body w-full juitem-center px-8 rounded-full items-center ">
+      <ul class="flex justify-between font-family w-full item-center">
+        <li class="flex text-text">About</li>
+        <li class="flex text-text-c hidden md:flex">Portfolio</li>
+        <li class="flex text-text-c hidden md:flex">Contact</li>
+      </ul>
+      <div class="flex flex lg:hidden">
+        <img src="asset/image/Vector (9).svg" alt="" class="">
+      </div>
+    </nav>
+  </header>
+
+
+
+  <section
+    class="flex bg-body rounded-xl flex-col  md:col-span-2 mx-6 md:rounded-lg  md:flex md:justify-between md:flex-col md:px-8 md:py-16 ">
+    <section
+      class="flex flex-col-reverse gap-2 text-s-text py-6 pl-4  md:flex lg:flex-row justify-between md:px-6 md:py-12 md:flex ">
+      <div class="">
+        <h2 class="">UI/UX Designer</h2>
+      </div>
+      <div class=" ">
+        <button class="bg-[#161616] w-38 text-[10px] rounded-[2rem] flex items-center pl-4 gap-2">
+          <div class="bg-border w-3 h-3 rounded-full"></div>
+          <h3>AVAILABLE FOR JOB</h3>
+        </button>
+      </div>
+    </section>
+
+    <section class="flex flex-col-reverse px-4 md:flex lg:flex-row justify-between md:px-6  item-center">
+      <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-2 font-family">
+          <h2 class="flex text-text-c text-[1.4rem] md:text-[1.9rem] font-family">I’m ken Nerous</h2>
+          <p class="flex text-s-text">I design digital products with <br>
+            great experience.</p>
         </div>
-        <nav class="flex bg-body w-full juitem-center px-8 rounded-full items-center ">
-            <ul class="flex justify-between font-family w-full item-center">
-                <li class="flex text-text">About</li>
-                <li class="flex text-text-c hidden md:flex">Portfolio</li>
-                <li class="flex text-text-c hidden md:flex">Contact</li>
-            </ul>
-            <div class="flex flex lg:hidden">
-                <img src="asset/image/Vector (9).svg" alt="" class="">
-            </div>
-        </nav>
-    </header>
 
-</body>
-
-<section
-class="flex bg-body rounded-xl flex-col  md:col-span-2 mx-6 md:rounded-lg  md:flex md:justify-between md:flex-col md:px-8 md:py-16 ">
-<section
-  class="flex flex-col-reverse gap-2 text-s-text py-6 pl-4  md:flex lg:flex-row justify-between md:px-6 md:py-12 md:flex ">
-  <div class="">
-    <h2 class="">UI/UX Designer</h2>
-  </div>
-  <div class=" ">
-    <button class="bg-[#161616] w-38 text-[10px] rounded-[2rem] flex items-center pl-4 gap-2">
-      <div class="bg-border w-3 h-3 rounded-full"></div>
-      <h3>AVAILABLE FOR JOB</h3>
-    </button>
-  </div>
-</section>
-
-<section class="flex flex-col-reverse px-4 md:flex lg:flex-row justify-between md:px-6  item-center">
-  <div class="flex flex-col gap-4">
-    <div class="flex flex-col gap-2 font-family">
-      <h2 class="flex text-text-c text-[1.4rem] md:text-[1.9rem] font-family">I’m ken Nerous</h2>
-      <p class="flex text-s-text">I design digital products with <br>
-        great experience.</p>
-    </div>
-
-    <div class=" flex gap-4 md:flex  md:gap-12">
-      <div class="flex">
-        <button class="w-14 h-6 bg-border md:w-20 md:h-8 rounded-l border-r-1  ">
-          <h4 class="text-s-text text-[12px] md:text-[16px] font-family">Hire me</h4>
-        </button>
-        <button class="w-8 h-6 bg-border md:w-10 md:h-8 rounded-r border-l-1 ">
-          <h1 class="text-s-text">+</h1>
-        </button>
+        <div class=" flex gap-4 md:flex  md:gap-12">
+          <div class="flex">
+            <button class="w-14 h-6 bg-border md:w-20 md:h-8 rounded-l border-r-1  ">
+              <h4 class="text-s-text text-[12px] md:text-[16px] font-family">Hire me</h4>
+            </button>
+            <button class="w-8 h-6 bg-border md:w-10 md:h-8 rounded-r border-l-1 ">
+              <h1 class="text-s-text">+</h1>
+            </button>
+          </div>
+          <div class="flex juitem-center item-center ">
+            <button
+              class="w-18 h-6 text-[12px] bg-[#161616] md:text-[16px] md:w-24 md:h-8  rounded-l border-r-1  font-family">
+              <h4 class="text-s-text">Copy
+                Email</h4>
+            </button>
+            <button class="w-10 bg-[#161616] md:w-12 md:h-8 rounded-r border-r-1 pl-3"><img
+                src="asset/image/Vector (10).svg" alt=""></button>
+          </div>
+        </div>
       </div>
-      <div class="flex juitem-center item-center ">
-        <button class="w-16 h-6 text-[12px] bg-[#161616] md:text-[16px] md:w-24 md:h-8 rounded-l border-r-1 text-s-text font-family">Copy
-          Email</button>
-        <button class="w-10 bg-[#161616] md:w-12 md:h-8 rounded-r border-r-1 pl-3"><img src="asset/image/Vector (10).svg"
-            alt=""></button>
+      <div>
+        <div
+          class="flex bg-[#3F3E3E] rounded-full w-16 items-center h-16 md:w-26 md:h-26 md:flex md:items-center pl-[2px]">
+          <img src="asset/image/Ellipse 61.svg" alt="" class="w-15 h-15 md:w-25 md:h-24 ">
+        </div>
       </div>
-    </div>
-  </div>
-  <div>
-    <div class="flex bg-[#3F3E3E] rounded-full w-16 items-center h-16 md:w-26 md:h-26 md:flex md:items-center pl-1">
-      <img src="./asset/image/Ellipse 61.svg" alt="" class="w-14 h-14 md:w-24 h-24 ">
-    </div>
-  </div>
-</section>
-</section>
-<section class="flex flex-col  ">
+    </section>
+  </section>
+
+
+  <section class="bg-blue-500 flex flex-col justify-center">
     <!-- section one -->
-    <section class=" flex flex-col h-full px-6 gap-6">
+    <section class="flex flex-col md:grid md:grid-cols-2 px-6  md:gap-4 md:justify-between  bg-yellow-400 justify-center ">
       <!-- step one ----------------------------------------------------------------------------------------------------- -->
       <section class="bg-body px-6 rounded-xl text-s-text font-family">
-        <div class="flex items-center py-12 gap-4  ">
+        <div class="flex items-cent py-12  gap-4  ">
           <div class="flex w-3 h-3 bg-s-text rounded-full ml-4 "></div>
           <div class="flex ">
             <h4>Recent Work</h4>
@@ -144,11 +150,13 @@ class="flex bg-body rounded-xl flex-col  md:col-span-2 mx-6 md:rounded-lg  md:fl
               <p>Figma</p>
             </div>
           </div>
-
         </section>
       </section>
+      <!-- step one-end -->
+
+
       <!-- step two -------------------------------------------------------------------------------------------------- -->
-      <section class="flex md:flex flex-col  gap-4">
+      <section class="flex flex-col md:flex md:flex-col gap-4 md:col-start-2  ">
         <section class="flex w-full  md:flex  items-center text-center">
           <div
             class="flex w-full h-24  pr-[1px] md:flex bg-gradient-to-tr  to-[#E63E21] rounded-lg md:w-12O md:h-30 md:pr-[2px]">
@@ -157,153 +165,166 @@ class="flex bg-body rounded-xl flex-col  md:col-span-2 mx-6 md:rounded-lg  md:fl
               <h2 class="flex justify-center  items-center text-s-text font-family">Product design</h2>
             </div>
           </div>
-          </div>
         </section>
 
-        <div class="flex md:flex justify-between">
-          <section class="flex md:items-center">
-            <div class="flex w-42 h-24 md:flex bg-gradient-to-tr  to-[#E63E21] rounded-lg md:w-75 md:h-30 pr-[2px]  ">
+        <section class="flex flex-row w-full justify-center gap-6 md:flex ">
+          <div class="flex flex-1 w-full  md:items-center">
+            <div
+              class="flex w-full  h-24  md:flex bg-gradient-to-tr  to-[#E63E21] rounded-lg md:w-full md:h-30 pr-[2px]  ">
               <div
-                class="flex w-42 h-24 md:flex justify-center  items-center  md:w-120 md:h-30 mb-12 bg-gradient-to-tr from-[#262626] from-80% to-[#E63E21] rounded-lg">
-                <h2 class="flex justify-center  items-center text-s-text font-family">User Experience</h2>
+                class="flex  w-full h-24 md:flex justify-center  items-center  md:w-full md:h-30 mb-12 bg-gradient-to-tr from-[#262626] from-80% to-[#E63E21] rounded-lg">
+                <h2 class="flex justify-center items-center text-s-text font-family">User Experience</h2>
               </div>
             </div>
 
-          </section>
+          </div>
 
-          <section class="items-center text-center">
+          <div class="flex flex-1 w-full  md:items-center ">
             <div
-              class="flex w-42 h-24 md:flex bg-gradient-to-tl  to-[#E63E21] from-0% rounded-lg md:w-70 md:h-30 pl-[2px] pb-[2px] ">
+              class="flex  w-full h-24 md:flex bg-gradient-to-tl  to-[#E63E21] from-0% rounded-lg md:w-full md:h-30 pl-[2px] pb-[2px] ">
               <div
-                class="flex w-42 h-24 md:flex justify-center  items-center  md:w-120 md:h-30 mb-12 bg-gradient-to-bl from-[#262626] from-80% to-[#E63E21]   rounded-lg">
+                class="flex  w-full h-24  md:flex justify-center  items-center  md:w-full md:h-30 mb-12 bg-gradient-to-bl from-[#262626] from-80% to-[#E63E21]   rounded-lg">
                 <h2 class="flex justify-center  items-center text-s-text font-family">NoCode develop</h2>
               </div>
             </div>
-        </div>
+          </div>
+        </section>
       </section>
-      </div>
-      </div>
-    </section>
-  </section>
+      <!-- step two-end -->
 
-  <section class="flex flex-col px-6">
+      <!-- step 3,4,5 together -->
+      <section class="flex flex-col ">
 
-    <section class="flex flex-col px-6 bg-body rounded-xl pt-8">
-      <div class="flex justify-between items-center">
-        <div class="flex flex-col gap-2 text-s-text font-family">
-          <h2 class="text-text-c">iOS Mobile app</h2>
-          <p>Product develop</p>
-
-        </div>
-
-        <div class="flex juitem-center items-center">
-          <div class="flex bg-border w-8 h-8 rounded-full">
-            <div class="flex juitem-center pl-[11px] pt-[10px]">
-              <img src="./asset/image/Vector (11).svg" alt="" class="w-3 h-3">
+        <!-- step three -->
+        <section class="flex flex-col bg-body  rounded-xl  md:row-span-2 col-start-1 row-start-2">
+          <div class="flex justify-between  p-6 ">
+            <div class="flex flex-col gap-2 text-s-text font-family">
+              <h2 class="text-text-c">iOS Mobile app</h2>
+              <p>Product develop</p>
 
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="flex pt-8 juitem-center items-center">
-        <img src="./asset/image/iPhone Space gray.svg" alt="">
-      </div>
-    </section>
-  </section>
 
-  <section class="flex flex-col  px-6">
+            <div class="flex juitem-center items-center">
+              <div class="flex bg-border w-8 h-8 rounded-full">
+                <div class="flex juitem-center pl-[11px] pt-[10px]">
+                  <img src="./asset/image/Vector (11).svg" alt="" class="w-3 h-3">
 
-    <section class=" flex flex-col bg-body px-6 gap-6 rounded-xl">
-      <div class="flex justify-between items-center">
-
-        <div class="flex flex-col gap-2 text-s-text font-family">
-          <h3 class="text-text-c">AI Music product</h3>
-          <p>UX Case study</p>
-        </div>
-
-        <div class="flex juitem-center items-center">
-          <div class="flex bg-border w-8 h-8 rounded-full">
-            <div class="flex juitem-center pl-[11px] pt-[10px]">
-              <img src="./asset/image/Vector (11).svg" alt="" class="w-3 h-3">
-
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+          <div class="flex pt-8 juitem-center items-center">
+            <img src="./asset/image/iPhone Space gray.svg" alt="">
+          </div>
+        </section>
+      </section>
+      <!-- step three-end -->
+
+      <section class="gap-4 flex flex-col md:bg-red-900 ">
+        <!-- step foru -->
+        <section class="flex flex-col md:-mt-32 ">
+
+          <section class=" flex flex-col bg-body gap-6 rounded-xl">
+            <div class="flex justify-between items-center">
+
+              <div class="flex flex-col gap-2 text-s-text px-6 pt-4 font-family">
+                <h3 class="text-text-c">AI Music product</h3>
+                <p>UX Case study</p>
+              </div>
+
+              <div class="flex juitem-center items-center">
+                <div class="flex bg-border w-8 h-8 rounded-full">
+                  <div class="flex juitem-center pl-[11px] pt-[10px]">
+                    <img src="./asset/image/Vector (11).svg" alt="" class="w-3 h-3">
+
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
-      <div class=" ">
-        <img src="./asset/image/Group 35561 (1).svg" alt="">
-      </div>
-    </section>
-  </section>
+            <div class=" flex juitem-center">
+              <img src="./asset/image/Group 35561 (1).svg" alt="" class="">
+            </div>
+          </section>
+        </section>
+        <!-- step foru-end -->
 
-   <!-- section ai map -->
-   <section class="flex flex-col px-6">
-    <section class="flex flex-col px-6 bg-body rounded-xl gap-4">
-      <div class="flex justify-between items-center pt-8">
+        <!-- section ai map -->
+        <section class="flex flex-col ">
+          <section class="flex flex-col px-6 bg-body rounded-xl gap-4">
+            <div class="flex justify-between items-center pt-8">
 
-        <div class="flex flex-col gap-2 text-s-text font-family">
-          <h3 class="text-text-c">AI Map redesign</h3>
-          <p>UX Case study</p>
-        </div>
+              <div class="flex flex-col gap-2 text-s-text px-6 pb-2 font-family">
+                <h3 class="text-text-c">AI Map redesign</h3>
+                <p>UX Case study</p>
+              </div>
 
-        <div class="flex juitem-center items-center">
-          <div class="flex bg-border w-8 h-8 rounded-full">
-            <div class="flex juitem-center pl-[11px] pt-[10px]">
-              <img src="./asset/image/Vector (11).svg" alt="" class="w-3 h-3">
+              <div class="flex juitem-center items-center">
+                <div class="flex bg-border w-8 h-8 rounded-full">
+                  <div class="flex juitem-center pl-[11px] pt-[10px]">
+                    <img src="./asset/image/Vector (11).svg" alt="" class="w-3 h-3">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <img src="./asset/image/Group 35560.svg" alt="">
 
             </div>
+          </section>
+        </section>
+        <!-- step map-end -->
+      </section>
+    </section>
+
+
+    <footer class="lg:hidden flex  md:col-span-2  bg-body py-6 mx-6 text-s-text rounded-xl ">
+      <div class="flex flex-col-reverse gap-4 w-full justify-center items-center mx-6 font-family">
+        <div>
+          <p>Portfolio 2024</p>
+        </div>
+
+        <div class="flex justify-between w-full  text-text-c">
+          <div class="flex justify-between w-full font-family">
+            <p class="text-text">Twitter</p>
+            <p>Instagram</p>
+            <p>LinkdIn</p>
           </div>
+        </div>
+        <div class=" ">
+          <button class="bg-[#161616] w-36 text-[11px] rounded-[2rem] flex items-center pl-2 gap-2">
+            <div class="bg-border w-3 h-3 rounded-full font-family"></div>
+            <h3>AVAILABLE FOR JOB</h3>
+          </button>
         </div>
       </div>
 
-      <div class="border-color: red yellow green blue;    ">
-        <img src="./asset/image/Group 35560.svg" alt="">
+    </footer>
 
-      </div>
-    </section>
-  </section>
-
-  <footer class="lg:hidden flex  md:col-span-2  bg-body py-6 mx-6 text-s-text rounded-xl ">
-    <div class="flex flex-col-reverse gap-4 w-full justify-center items-center mx-6 font-family">
-      <div>
-        <p>Portfolio 2024</p>
-      </div>
-
-      <div class="flex justify-between w-full  text-text-c">
-        <div class="flex justify-between w-full font-family">
+    <footer class="hidden md:flex justify-between  w-full items-center">
+      <div class="flex justify-center px-6 w-full bg-green-500 font-family">
+        <div>
+          <p>Portfolio 2024</p>
+        </div>
+        <div class="flex gap-12">
           <p class="text-text">Twitter</p>
           <p>Instagram</p>
           <p>LinkdIn</p>
         </div>
+        <div class="font-family ">
+          <button class="bg-[#161616] w-36 text-[12px] rounded-[2rem] flex items-center pl-2 gap-2">
+            <div class="bg-border w-3 h-3 rounded-full"></div>
+            <h3>AVAILABLE FOR JOB</h3>
+          </button>
+        </div>
       </div>
-      <div class=" ">
-        <button class="bg-[#161616] w-36 text-[11px] rounded-[2rem] flex items-center pl-2 gap-2">
-          <div class="bg-border w-3 h-3 rounded-full font-family"></div>
-          <h3>AVAILABLE FOR JOB</h3>
-        </button>
-      </div>
-    </div>
 
-  </footer>
+    </footer>
+  </section>
 
-  <footer class="hidden md:flex justify-between w-full items-center">
-    <div class="flex justify-center w-full bg-green-500 font-family">
-      <div>
-        <p>Portfolio 2024</p>
-      </div>
-      <div class="flex gap-12">
-        <p class="text-text">Twitter</p>
-        <p>Instagram</p>
-        <p>LinkdIn</p>
-      </div>
-      <div class="font-family ">
-        <button class="bg-[#161616] w-36 text-[12px] rounded-[2rem] flex items-center pl-2 gap-2">
-          <div class="bg-border w-3 h-3 rounded-full"></div>
-          <h3>AVAILABLE FOR JOB</h3>
-        </button>
-      </div>
-    </div>
+</body>
 
-  </footer>
+</html>
