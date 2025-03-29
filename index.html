@@ -27,13 +27,13 @@
   </style>
 </head>
 
-<body class="flex  flex-col  bg-[#1B1B1B] md:bg-red-400  font-family md:grid md:grid-cols-1">
+<body class="flex  flex-col  gap-4 bg-[#1B1B1B] md:gap-4 md:flex md:flex-col font-family md:grid md:grid-cols-1">
   <header class="flex w-full item-center px-4 md:px-8 md:col-span-2 pt-12">
-    <div class="flex juitem-center bg-body  md:flex w-9 h-8 md:w-12 mdh-12 juitem-center items-center rounded-full">
+    <div class="flex juitem-center bg-body  md:flex w-9 h-8 md:w-12 md:h-12 juitem-center items-center rounded-full">
       <img src="asset/image/Vector (8).svg" alt="" class="w-6 h-6 pl-2 md:w-8 md:h-8 md:pl-3">
     </div>
     <nav class="flex bg-body w-full juitem-center px-8 rounded-full items-center ">
-      <ul class="flex justify-between font-family w-full item-center">
+      <ul class="flex justify-between font-family w-full md:h-12 items-center">
         <li class="flex text-text">About</li>
         <li class="flex text-text-c hidden md:flex">Portfolio</li>
         <li class="flex text-text-c hidden md:flex">Contact</li>
@@ -99,10 +99,10 @@
   </section>
 
 
-  <section class="bg-blue-500  flex flex-col justify-center ">
+  <section class=" flex flex-col justify-center gap-4 ">
     <!-- section one -->
     <section
-      class="flex flex-col md:grid md:grid-cols-2 px-6  md:gap-4 md:justify-between  bg-yellow-400 justify-center ">
+      class="flex flex-col md:grid md:grid-cols-2 px-6  gap-4 md:justify-between justify-center ">
       <!-- step one ----------------------------------------------------------------------------------------------------- -->
       <section class="bg-body px-6 rounded-xl text-s-text font-family">
         <div class="flex items-cent py-12  gap-4  ">
@@ -197,7 +197,7 @@
       <section class="flex flex-col ">
 
         <!-- step three -->
-        <section class="flex flex-col bg-body  rounded-xl  md:row-span-2 col-start-1 row-start-2">
+        <section class="flex flex-col bg-body  rounded-xl md:row-span-2 col-start-1 row-start-2">
           <div class="flex justify-between  p-6 ">
             <div class="flex flex-col gap-2 text-s-text font-family">
               <h2 class="text-text-c">iOS Mobile app</h2>
@@ -205,16 +205,16 @@
 
             </div>
 
-            <div class="flex juitem-center items-center">
+            <div class="flex justify-center items-center">
               <div class="flex bg-border w-8 h-8 rounded-full">
                 <div class="flex juitem-center pl-[11px] pt-[10px]">
-                  <img src="./asset/image/Vector (11).svg" alt="" class="w-3 h-3">
+                  <img src="./asset/image/Vector (11).svg" alt="" class="w-3 h-3 ">
 
                 </div>
               </div>
             </div>
           </div>
-          <div class="flex pt-8 juitem-center items-center">
+          <div class="flex pt-8 justify-center items-center">
             <img src="./asset/image/iPhone Space gray.svg" alt="">
           </div>
         </section>
@@ -305,8 +305,8 @@
 
     </footer>
 
-    <footer class="hidden md:flex md:justify-between items-center pt-4 pb-10">
-      <div class="flex md:justify-between md:w-full px-6 md:h-16 items-center  bg-green-500 font-family ">
+    <footer class="hidden md:flex md:justify-between items-center px-6 pt-4 pb-10 text-text-c">
+      <div class="flex md:justify-between md:w-full px-6 md:h-16 items-center font-family bg-body bg-gradient-to-bl from-[#262626] from-90% to-[#E63E21] rounded-lg">
         <div>
           <p>Portfolio 2024</p>
         </div>
@@ -315,12 +315,11 @@
           <p>Instagram</p>
           <p>LinkdIn</p>
         </div>
-        <div class="font-family w-44 bg-red-500 ">
-          <button class="bg-[#161616] w-3 text-[12px] rounded-[2rem] flex items-center pl-2 gap-2">
-            <div class="bg-border w-33 h-3 rounded-full"></div>
-            <h3>AVAILABLE FOR JOB</h3>
-          </button>
-        </div>
+      <div>
+        <button class="bg-[#161616] w-38 h-5 text-[10px] rounded-[2rem] flex items-center pl-4 gap-2 font-family">
+          <div class="bg-border w-3 h-3 rounded-full"></div>
+          <h3>AVAILABLE FOR JOB</h3>
+        </button>
       </div>
 
     </footer>
